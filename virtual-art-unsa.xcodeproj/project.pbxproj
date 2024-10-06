@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E576EE252CB3300E0097614B /* virtual_art_unsaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E576EE242CB3300E0097614B /* virtual_art_unsaApp.swift */; };
+		E576EE272CB3300E0097614B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E576EE262CB3300E0097614B /* ContentView.swift */; };
+		E576EE292CB330100097614B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E576EE282CB330100097614B /* Assets.xcassets */; };
+		E576EE2C2CB330100097614B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E576EE2B2CB330100097614B /* Preview Assets.xcassets */; };
+		E576EE362CB330100097614B /* virtual_art_unsaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E576EE352CB330100097614B /* virtual_art_unsaTests.swift */; };
+		E576EE402CB330100097614B /* virtual_art_unsaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E576EE3F2CB330100097614B /* virtual_art_unsaUITests.swift */; };
+		E576EE422CB330100097614B /* virtual_art_unsaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E576EE412CB330100097614B /* virtual_art_unsaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E576EE322CB330100097614B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E576EE192CB3300E0097614B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E576EE202CB3300E0097614B;
+			remoteInfo = "virtual-art-unsa";
+		};
+		E576EE3C2CB330100097614B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E576EE192CB3300E0097614B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E576EE202CB3300E0097614B;
+			remoteInfo = "virtual-art-unsa";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E576EE212CB3300E0097614B /* virtual-art-unsa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "virtual-art-unsa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E576EE242CB3300E0097614B /* virtual_art_unsaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = virtual_art_unsaApp.swift; sourceTree = "<group>"; };
+		E576EE262CB3300E0097614B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E576EE282CB330100097614B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E576EE2B2CB330100097614B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E576EE312CB330100097614B /* virtual-art-unsaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "virtual-art-unsaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E576EE352CB330100097614B /* virtual_art_unsaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = virtual_art_unsaTests.swift; sourceTree = "<group>"; };
+		E576EE3B2CB330100097614B /* virtual-art-unsaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "virtual-art-unsaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E576EE3F2CB330100097614B /* virtual_art_unsaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = virtual_art_unsaUITests.swift; sourceTree = "<group>"; };
+		E576EE412CB330100097614B /* virtual_art_unsaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = virtual_art_unsaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E576EE1E2CB3300E0097614B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E576EE2E2CB330100097614B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E576EE382CB330100097614B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E576EE182CB3300E0097614B = {
+			isa = PBXGroup;
+			children = (
+				E576EE232CB3300E0097614B /* virtual-art-unsa */,
+				E576EE342CB330100097614B /* virtual-art-unsaTests */,
+				E576EE3E2CB330100097614B /* virtual-art-unsaUITests */,
+				E576EE222CB3300E0097614B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E576EE222CB3300E0097614B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E576EE212CB3300E0097614B /* virtual-art-unsa.app */,
+				E576EE312CB330100097614B /* virtual-art-unsaTests.xctest */,
+				E576EE3B2CB330100097614B /* virtual-art-unsaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E576EE232CB3300E0097614B /* virtual-art-unsa */ = {
+			isa = PBXGroup;
+			children = (
+				E576EE242CB3300E0097614B /* virtual_art_unsaApp.swift */,
+				E576EE262CB3300E0097614B /* ContentView.swift */,
+				E576EE282CB330100097614B /* Assets.xcassets */,
+				E576EE2A2CB330100097614B /* Preview Content */,
+			);
+			path = "virtual-art-unsa";
+			sourceTree = "<group>";
+		};
+		E576EE2A2CB330100097614B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E576EE2B2CB330100097614B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E576EE342CB330100097614B /* virtual-art-unsaTests */ = {
+			isa = PBXGroup;
+			children = (
+				E576EE352CB330100097614B /* virtual_art_unsaTests.swift */,
+			);
+			path = "virtual-art-unsaTests";
+			sourceTree = "<group>";
+		};
+		E576EE3E2CB330100097614B /* virtual-art-unsaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E576EE3F2CB330100097614B /* virtual_art_unsaUITests.swift */,
+				E576EE412CB330100097614B /* virtual_art_unsaUITestsLaunchTests.swift */,
+			);
+			path = "virtual-art-unsaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E576EE202CB3300E0097614B /* virtual-art-unsa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E576EE452CB330100097614B /* Build configuration list for PBXNativeTarget "virtual-art-unsa" */;
+			buildPhases = (
+				E576EE1D2CB3300E0097614B /* Sources */,
+				E576EE1E2CB3300E0097614B /* Frameworks */,
+				E576EE1F2CB3300E0097614B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "virtual-art-unsa";
+			productName = "virtual-art-unsa";
+			productReference = E576EE212CB3300E0097614B /* virtual-art-unsa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E576EE302CB330100097614B /* virtual-art-unsaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E576EE482CB330100097614B /* Build configuration list for PBXNativeTarget "virtual-art-unsaTests" */;
+			buildPhases = (
+				E576EE2D2CB330100097614B /* Sources */,
+				E576EE2E2CB330100097614B /* Frameworks */,
+				E576EE2F2CB330100097614B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E576EE332CB330100097614B /* PBXTargetDependency */,
+			);
+			name = "virtual-art-unsaTests";
+			productName = "virtual-art-unsaTests";
+			productReference = E576EE312CB330100097614B /* virtual-art-unsaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E576EE3A2CB330100097614B /* virtual-art-unsaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E576EE4B2CB330100097614B /* Build configuration list for PBXNativeTarget "virtual-art-unsaUITests" */;
+			buildPhases = (
+				E576EE372CB330100097614B /* Sources */,
+				E576EE382CB330100097614B /* Frameworks */,
+				E576EE392CB330100097614B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E576EE3D2CB330100097614B /* PBXTargetDependency */,
+			);
+			name = "virtual-art-unsaUITests";
+			productName = "virtual-art-unsaUITests";
+			productReference = E576EE3B2CB330100097614B /* virtual-art-unsaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E576EE192CB3300E0097614B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					E576EE202CB3300E0097614B = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					E576EE302CB330100097614B = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = E576EE202CB3300E0097614B;
+					};
+					E576EE3A2CB330100097614B = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = E576EE202CB3300E0097614B;
+					};
+				};
+			};
+			buildConfigurationList = E576EE1C2CB3300E0097614B /* Build configuration list for PBXProject "virtual-art-unsa" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E576EE182CB3300E0097614B;
+			productRefGroup = E576EE222CB3300E0097614B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E576EE202CB3300E0097614B /* virtual-art-unsa */,
+				E576EE302CB330100097614B /* virtual-art-unsaTests */,
+				E576EE3A2CB330100097614B /* virtual-art-unsaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E576EE1F2CB3300E0097614B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E576EE2C2CB330100097614B /* Preview Assets.xcassets in Resources */,
+				E576EE292CB330100097614B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E576EE2F2CB330100097614B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E576EE392CB330100097614B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E576EE1D2CB3300E0097614B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E576EE272CB3300E0097614B /* ContentView.swift in Sources */,
+				E576EE252CB3300E0097614B /* virtual_art_unsaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E576EE2D2CB330100097614B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E576EE362CB330100097614B /* virtual_art_unsaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E576EE372CB330100097614B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E576EE402CB330100097614B /* virtual_art_unsaUITests.swift in Sources */,
+				E576EE422CB330100097614B /* virtual_art_unsaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E576EE332CB330100097614B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E576EE202CB3300E0097614B /* virtual-art-unsa */;
+			targetProxy = E576EE322CB330100097614B /* PBXContainerItemProxy */;
+		};
+		E576EE3D2CB330100097614B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E576EE202CB3300E0097614B /* virtual-art-unsa */;
+			targetProxy = E576EE3C2CB330100097614B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E576EE432CB330100097614B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E576EE442CB330100097614B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E576EE462CB330100097614B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"virtual-art-unsa/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epis.virtual-art-unsa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E576EE472CB330100097614B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"virtual-art-unsa/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epis.virtual-art-unsa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E576EE492CB330100097614B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epis.virtual-art-unsaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/virtual-art-unsa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/virtual-art-unsa";
+			};
+			name = Debug;
+		};
+		E576EE4A2CB330100097614B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epis.virtual-art-unsaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/virtual-art-unsa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/virtual-art-unsa";
+			};
+			name = Release;
+		};
+		E576EE4C2CB330100097614B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epis.virtual-art-unsaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "virtual-art-unsa";
+			};
+			name = Debug;
+		};
+		E576EE4D2CB330100097614B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epis.virtual-art-unsaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "virtual-art-unsa";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E576EE1C2CB3300E0097614B /* Build configuration list for PBXProject "virtual-art-unsa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E576EE432CB330100097614B /* Debug */,
+				E576EE442CB330100097614B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E576EE452CB330100097614B /* Build configuration list for PBXNativeTarget "virtual-art-unsa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E576EE462CB330100097614B /* Debug */,
+				E576EE472CB330100097614B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E576EE482CB330100097614B /* Build configuration list for PBXNativeTarget "virtual-art-unsaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E576EE492CB330100097614B /* Debug */,
+				E576EE4A2CB330100097614B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E576EE4B2CB330100097614B /* Build configuration list for PBXNativeTarget "virtual-art-unsaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E576EE4C2CB330100097614B /* Debug */,
+				E576EE4D2CB330100097614B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E576EE192CB3300E0097614B /* Project object */;
+}
