@@ -14,6 +14,7 @@
 		E576EE362CB330100097614B /* virtual_art_unsaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E576EE352CB330100097614B /* virtual_art_unsaTests.swift */; };
 		E576EE402CB330100097614B /* virtual_art_unsaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E576EE3F2CB330100097614B /* virtual_art_unsaUITests.swift */; };
 		E576EE422CB330100097614B /* virtual_art_unsaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E576EE412CB330100097614B /* virtual_art_unsaUITestsLaunchTests.swift */; };
+		E576EE4F2CB33E480097614B /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E576EE4E2CB33E480097614B /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		E576EE3B2CB330100097614B /* virtual-art-unsaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "virtual-art-unsaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E576EE3F2CB330100097614B /* virtual_art_unsaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = virtual_art_unsaUITests.swift; sourceTree = "<group>"; };
 		E576EE412CB330100097614B /* virtual_art_unsaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = virtual_art_unsaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E576EE4E2CB33E480097614B /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				E576EE262CB3300E0097614B /* ContentView.swift */,
 				E576EE282CB330100097614B /* Assets.xcassets */,
 				E576EE2A2CB330100097614B /* Preview Content */,
+				E576EE4E2CB33E480097614B /* TabBar.swift */,
 			);
 			path = "virtual-art-unsa";
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E576EE4F2CB33E480097614B /* TabBar.swift in Sources */,
 				E576EE272CB3300E0097614B /* ContentView.swift in Sources */,
 				E576EE252CB3300E0097614B /* virtual_art_unsaApp.swift in Sources */,
 			);
