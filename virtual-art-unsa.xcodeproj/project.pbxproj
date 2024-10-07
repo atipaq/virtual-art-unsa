@@ -15,6 +15,7 @@
 		E576EE402CB330100097614B /* virtual_art_unsaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E576EE3F2CB330100097614B /* virtual_art_unsaUITests.swift */; };
 		E576EE422CB330100097614B /* virtual_art_unsaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E576EE412CB330100097614B /* virtual_art_unsaUITestsLaunchTests.swift */; };
 		E576EE4F2CB33E480097614B /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E576EE4E2CB33E480097614B /* TabBar.swift */; };
+		E5D4D8C32CB4683E0052C4D1 /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = E5D4D8C22CB4683E0052C4D1 /* RiveRuntime */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		E576EE3F2CB330100097614B /* virtual_art_unsaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = virtual_art_unsaUITests.swift; sourceTree = "<group>"; };
 		E576EE412CB330100097614B /* virtual_art_unsaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = virtual_art_unsaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E576EE4E2CB33E480097614B /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		E5D4D8C02CB466440052C4D1 /* location_icon.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = location_icon.riv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5D4D8C32CB4683E0052C4D1 /* RiveRuntime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,11 +99,12 @@
 		E576EE232CB3300E0097614B /* virtual-art-unsa */ = {
 			isa = PBXGroup;
 			children = (
-				E576EE242CB3300E0097614B /* virtual_art_unsaApp.swift */,
 				E576EE262CB3300E0097614B /* ContentView.swift */,
+				E576EE4E2CB33E480097614B /* TabBar.swift */,
+				E576EE242CB3300E0097614B /* virtual_art_unsaApp.swift */,
 				E576EE282CB330100097614B /* Assets.xcassets */,
 				E576EE2A2CB330100097614B /* Preview Content */,
-				E576EE4E2CB33E480097614B /* TabBar.swift */,
+				E5D4D8BE2CB465AF0052C4D1 /* RiveAssets */,
 			);
 			path = "virtual-art-unsa";
 			sourceTree = "<group>";
@@ -130,6 +134,14 @@
 			path = "virtual-art-unsaUITests";
 			sourceTree = "<group>";
 		};
+		E5D4D8BE2CB465AF0052C4D1 /* RiveAssets */ = {
+			isa = PBXGroup;
+			children = (
+				E5D4D8C02CB466440052C4D1 /* location_icon.riv */,
+			);
+			path = RiveAssets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +158,9 @@
 			dependencies = (
 			);
 			name = "virtual-art-unsa";
+			packageProductDependencies = (
+				E5D4D8C22CB4683E0052C4D1 /* RiveRuntime */,
+			);
 			productName = "virtual-art-unsa";
 			productReference = E576EE212CB3300E0097614B /* virtual-art-unsa.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +233,9 @@
 				Base,
 			);
 			mainGroup = E576EE182CB3300E0097614B;
+			packageReferences = (
+				E5D4D8C12CB4683E0052C4D1 /* XCRemoteSwiftPackageReference "rive-ios" */,
+			);
 			productRefGroup = E576EE222CB3300E0097614B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -594,6 +612,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E5D4D8C12CB4683E0052C4D1 /* XCRemoteSwiftPackageReference "rive-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rive-app/rive-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.1.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E5D4D8C22CB4683E0052C4D1 /* RiveRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E5D4D8C12CB4683E0052C4D1 /* XCRemoteSwiftPackageReference "rive-ios" */;
+			productName = RiveRuntime;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E576EE192CB3300E0097614B /* Project object */;
 }
