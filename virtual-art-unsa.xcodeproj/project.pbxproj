@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E54F3F662CB48FFD00F45758 /* icons_mod.riv in Resources */ = {isa = PBXBuildFile; fileRef = E54F3F652CB48FFC00F45758 /* icons_mod.riv */; };
+		E54F3F6C2CB492B200F45758 /* location_icon.riv in Resources */ = {isa = PBXBuildFile; fileRef = E54F3F6B2CB492B200F45758 /* location_icon.riv */; };
 		E576EE252CB3300E0097614B /* virtual_art_unsaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E576EE242CB3300E0097614B /* virtual_art_unsaApp.swift */; };
 		E576EE272CB3300E0097614B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E576EE262CB3300E0097614B /* ContentView.swift */; };
 		E576EE292CB330100097614B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E576EE282CB330100097614B /* Assets.xcassets */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E54F3F652CB48FFC00F45758 /* icons_mod.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = icons_mod.riv; sourceTree = "<group>"; };
+		E54F3F6B2CB492B200F45758 /* location_icon.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = location_icon.riv; sourceTree = "<group>"; };
 		E576EE212CB3300E0097614B /* virtual-art-unsa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "virtual-art-unsa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E576EE242CB3300E0097614B /* virtual_art_unsaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = virtual_art_unsaApp.swift; sourceTree = "<group>"; };
 		E576EE262CB3300E0097614B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,7 +51,6 @@
 		E576EE3F2CB330100097614B /* virtual_art_unsaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = virtual_art_unsaUITests.swift; sourceTree = "<group>"; };
 		E576EE412CB330100097614B /* virtual_art_unsaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = virtual_art_unsaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E576EE4E2CB33E480097614B /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
-		E5D4D8C02CB466440052C4D1 /* location_icon.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = location_icon.riv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,7 +140,8 @@
 		E5D4D8BE2CB465AF0052C4D1 /* RiveAssets */ = {
 			isa = PBXGroup;
 			children = (
-				E5D4D8C02CB466440052C4D1 /* location_icon.riv */,
+				E54F3F6B2CB492B200F45758 /* location_icon.riv */,
+				E54F3F652CB48FFC00F45758 /* icons_mod.riv */,
 			);
 			path = RiveAssets;
 			sourceTree = "<group>";
@@ -253,7 +257,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E576EE2C2CB330100097614B /* Preview Assets.xcassets in Resources */,
+				E54F3F6C2CB492B200F45758 /* location_icon.riv in Resources */,
 				E576EE292CB330100097614B /* Assets.xcassets in Resources */,
+				E54F3F662CB48FFD00F45758 /* icons_mod.riv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

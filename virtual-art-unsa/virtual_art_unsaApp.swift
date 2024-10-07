@@ -11,7 +11,8 @@ import SwiftUI
 struct virtual_art_unsaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            TabBar()
         }
     }
 }
